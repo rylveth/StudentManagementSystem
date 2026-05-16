@@ -20,7 +20,7 @@ class Student : public Person {
         else if (average >= 80 && average < 90) { letter = "B"; }
         else if (average >= 70 && average < 80) { letter = "C"; }
         else if (average >= 60 && average < 70) { letter = "D"; }
-        else if (average < 60) { letter = "F"; }
+        else if { letter = "F"; }
     }
 public:
     void setID(int i) { id = i; }
